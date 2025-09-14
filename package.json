@@ -1,0 +1,11 @@
+{
+  "name": "yaoko-wine-crawler",
+  "private": true,
+  "type": "module",
+  "scripts": { "crawl": "node scripts/crawl.js" },
+  "dependencies": {
+    "cheerio": "^1.0.0",
+    "node-fetch": "^3.3.2",
+    "p-limit": "^5.0.0"
+  }
+}
